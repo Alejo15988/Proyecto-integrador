@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Integrador - Contacto</title>
+</head>
+<body>
+    <header class="main-header">
+        <input type="checkbox" id="menu">
+  
+        <nav class="nav-bar">
+          <ul class="nav-bar__nav-list">
+            <li class="nav-bar__nav-item">
+              <a href="index.html" class="nav-bar__nav-link">Inicio</a>
+            </li>
+            <li class="nav-bar__nav-item">
+              <a href="#" class="nav-bar__nav-link">Alta</a>
+            </li>
+            <li class="nav-bar__nav-item">
+              <a href="views/nosotros.html" class="nav-bar__nav-link">Nosotros</a>
+            </li>
+            <li class="nav-bar__nav-item">
+              <a href="#" class="nav-bar__nav-link">Contacto</a>
+            </li>
+          </ul>
+        </nav> <!-- .nav-bar -->
+  
+        <div class="search-bar">
+          <div class="search-bar__logo-container">Logo</div>
+          <form action="#" class="search-bar__form-container">
+            <label for="busqueda" class="search-bar__form-label">Buscar</label>
+            <input type="search" class="search-bar__form-search" id="busqueda">
+            <input type="submit" class="search-bar__form-submit" value="Buscar">
+          </form>
+          <div class="search-bar__carrito-container">C</div>
+          <div class="menu-toogle">
+            <label for="menu" class="menu-toogle__label">
+              <span class="menu-toogle__top-bread"></span>
+              <span class="menu-toogle__meat"></span>
+              <span class="menu-toogle__bottom-bread"></span>
+            </label>
+          </div>
+        </div> <!-- .search-bar -->
+  
+      </header> <!-- main-header -->
+
+      <main>
+  
+
+        <div class="contacto-formulario">
+          <h2>Contacto</h2>
+          <form action="#" method="POST">
+            <label for="nombre">Nombres:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="nombre">Apellidos:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="nombre">Numero de celular:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">¿En que te podemos ayudar?</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <label for="condiciones">He leiddo y acepto los terminos y condiciones</label>
+            <br><input type="radio" id="condiciones" name="" required><br>
+          
+            <br><button type="submit" class="boton-enviar">Enviar</button>
+        </div>
+      
+        <footer class="pie-pagina">
+          <div class="contenedor">
+            <div class="columna">
+              <h3>Acerca de Nosotros</h3>
+              <p>Somos una empresa dedicada a la innovación tecnológica. Nuestro objetivo es proporcionar soluciones creativas y efectivas para nuestros clientes.</p>
+            </div>
+            <div class="columna">
+              <h3>Enlaces Útiles</h3>
+              <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+            </div>
+            <div class="columna">
+              <h3>Contacto</h3>
+              <p>Dirección: Calle Tecnológica #123, Ciudad Tecnológica</p>
+              <p>Email: info@tecnologiaco.com</p>
+              <p>Teléfono: 123-456-7890</p>
+            </div>
+          </div>
+        </footer>
+        
+    <script type="module" src="/main.js"></script>
+</body>
+</html>

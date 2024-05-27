@@ -1,0 +1,45 @@
+$color-texto: #333; // Color de texto principal
+$color-fondo: #f8f9fa; // Gris claro para el fondo
+
+.nosotros-seccion {
+  background-color: $color-fondo;
+  padding: 40px 0;
+  
+  .contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: $color-texto;
+      text-align: center;
+    }
+    
+    .contenido {
+      display: flex;
+      align-items: center;
+      
+      .imagen {
+        flex: 0 0 50%;
+        margin-right: 30px;
+        
+        img {
+          max-width: 100%;
+          height: auto;
+          display: block;
+        }
+      }
+      
+      .texto {
+        flex: 1;
+        
+        p {
+          margin-bottom: 15px;
+          line-height: 1.6;
+          color: $color-texto;
+        }
+      }
+    }
+  }
+}
